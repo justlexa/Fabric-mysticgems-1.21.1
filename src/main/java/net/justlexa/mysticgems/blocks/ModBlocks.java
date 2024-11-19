@@ -15,11 +15,11 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block HEART_GEM_ORE = registerBlock("heart_gem_ore",
-            new Block(AbstractBlock.Settings.create().strength(4f)
+            new Block(AbstractBlock.Settings.create().strength(3f)
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_CLUSTER)));
 
     public static final Block DEEPSLATE_HEART_GEM_ORE = registerBlock("deepslate_heart_gem_ore",
-            new Block(AbstractBlock.Settings.create().strength(4f)
+            new Block(AbstractBlock.Settings.create().strength(4.5f)
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_CLUSTER)));
 
 

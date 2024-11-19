@@ -1,7 +1,11 @@
 {
   "item.mysticgems.raw_heart_gem": "Raw Heart Gem",
   "item.mysticgems.heart_gem": "Heart Gem",
+  "item.mysticgems.mystic_dust": "Mystic Dust",
 
   "block.mysticgems.heart_gem_ore": "Heart Gem Ore",
-  "block.mysticgems.deepslate_heart_gem_ore": "Deepslate Heart Gem Ore"
+  "block.mysticgems.deepslate_heart_gem_ore": "Deepslate Heart Gem Ore",
+
+  "itemgroup.mysticgems.mystic_gems_items": "Mystic Items",
+  "itemgroup.mysticgems.mystic_gems_blocks": "Mystic Blocks"
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "minecraft:gems"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "mysticgems:mystic_dust"
+  }
+}

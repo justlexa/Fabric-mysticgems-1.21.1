@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.2,
+  "group": "heart_gem",
+  "ingredient": {
+    "item": "mysticgems:raw_heart_gem"
+  },
+  "result": {
+    "id": "mysticgems:heart_gem"
+  }
+}
