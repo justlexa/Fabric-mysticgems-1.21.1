@@ -16,9 +16,17 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.MYSTIC_DUST))
                     .displayName(Text.translatable("itemgroup.mysticgems.mystic_gems_items"))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModItems.MYSTIC_DUST);
+
+                        // Heart Gem Items
                         entries.add(ModItems.HEART_GEM);
                         entries.add(ModItems.RAW_HEART_GEM);
-                        entries.add(ModItems.MYSTIC_DUST);
+
+                        entries.add(ModItems.HEART_GEM_HELMET);
+                        entries.add(ModItems.HEART_GEM_CHESTPLATE);
+                        entries.add(ModItems.HEART_GEM_LEGGINGS);
+                        entries.add(ModItems.HEART_GEM_BOOTS);
+
                     })
 
                     .build());
