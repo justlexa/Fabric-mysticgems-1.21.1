@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "mysticgems",
+	"version": "${version}",
+	"name": "MysticGems",
+	"description": "Adds a variety of gems that have mystical properties",
+	"authors": [
+		"justlexa!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mysticgems/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.justlexa.mysticgems.MysticGems"
+		],
+		"fabric-datagen": [
+			"net.justlexa.mysticgems.MysticGemsDataGenerator"
+		]
+	},
+	"mixins": [
+		"mysticgems.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
